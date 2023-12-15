@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dolci&Caffe</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet" />
+
+    <!-- Feath Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My style -->
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Dolci&<span>caffe </span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"> <i data-feather="search"></i></a>
+        <a href="#" id="search"> <i data-feather="shopping-cart"></i></a>
+        <a href="#" id="toast-menu"> <i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+      <!-- main untuk menyimpan semua elemen2 utama dari bagian section, dibuat di main karena sectioan akan dibuat penuh satu layar dan punya bg image, sedangkan mine akan menyimpan elemen isi-->
+      <main class="content">
+        <h1>Luangkan Waktu untuk menikmati <span>Dessert dan Kopi</span></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, nemo.</p>
+        <a href="#" class="cta">Pesan Sekarang</a>
+        <!--CTA (Call To Action)-->
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <!-- section#about.about-->
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <!--Untuk mengarur baris baru-->
+        <div class="about-img">
+          <img src="img/tentang-kami.jpeg" alt="Tentang Kami" />
+          <!--yaitu elemen gambar yang tulisannya Tentang Kami-->
+        </div>
+        <div class="content">
+          <h3>Berikan alasan memilih Dolci&Caffe</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex ratione voluptatum veritatis quis aperiam facere.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad vel earum possimus impedit similique praesentium minima excepturi eos vero repellendus!</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section end -->
+
+    <!-- Menu Section start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis id, quibusdam aut libero qui soluta.</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <!-- jika membuat lebih dari satu menu, maka class menu card-nya harus di copy sebanyak menu-->
+          <img src="img/menu/pudding/choco pudding.jpg" alt="ChocoPudding" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Choco Pudding -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pudding/manggo pudding.jpg" alt="ManggoPudding" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Manggo Pudding -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pudding/matca1 pudding.jpg" alt="MatchaPudding" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Matcha Pudding -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pudding/stroberi1 pudding.jpg" alt="StroberiPudding" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Storobarry Pudding -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pudding/vanilla milky pudding.jpg" alt="VanillaMilkyPudding" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Vanilla Milky Pudding -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/ice cream/choco ice cream.jpg" alt="ChocoIceCream" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Choco Ice Cream -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/ice cream/durian1.jpg" alt="DurianIceCream" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Durian Ice Cream -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/ice cream/stroberi.jpg" alt="StroberryIceCream" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Stroberry Ice Cream -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/ice cream/vanilla.jpg" alt="VanillaIceCream" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Vanilla Ice Cream -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/ice cream/mix.jpg" alt="MixIceCream" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Mix Ice Cream -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/cake/choco cake.jpg" alt="ChocoCake" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Choco Cake -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/cake/chesse barry.jpg" alt="CheeseCake" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Cheese Cake -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/cake/vanilla cake.jpeg" alt="VanillaCake" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Vanilla Cake -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/cake/coffe cake.jpg" alt="CoffeCake" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Coffe Cake -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/cake/taro.jpg" alt="TaroCake" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Taro Cake -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pai/choco.jpg" alt="ChocoPie" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Choco Pie -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pai/keju.jpg" alt="CheesePie" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Cheese Pie -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pai/matcha.jpg" alt="MatchaPie" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Matcha Pie -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pai/egg honey.jpg" alt="EggHoneyPie" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Egg Honey Pie -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/pai/mix.jpg" alt="MixPie" class="menu-card-image" />
+          <h3 class="menu-card-tittle">- Mix Pie -</h3>
+          <p class="menu-card-price">IDR 12K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Contact Setion start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, alias.</p>
+
+      <div class="row">
+        <!-- Untuk menambahkan Maps-->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252881.37618988447!2d111.38898622652898!3d-7.970867836649432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e790b859cfee851%3A0x3027a76e352bea0!2sKabupaten%20Ponorogo%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1675600484009!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <!--Menambahkan kelas map pada iframe-->
+        <!-- Untuk membuat form (sebelah maps) -->
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <!--memakan feather icon, simbol user-->
+            <input type="text" placeholder="nama" />
+            <!-- agar dapat di isi oleh user... placeholder adalag tulisan yang ada di dalam input-->
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <!--memakan feather icon, simbol mail-->
+            <input type="text" placeholder="email" />
+            <!-- agar dapat di isi oleh user... placeholder adalag tulisan yang ada di dalam input-->
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <!--memakan feather icon, simbol phone-->
+            <input type="text" placeholder="hp" />
+            <!-- agar dapat di isi oleh user... placeholder adalag tulisan yang ada di dalam input-->
+          </div>
+          <!-- Menambahkan tombol kirim pesan -->
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Setion end -->
+
+    <!-- Footer start -->
+    <!-- Untuk mencantumkan link sosial media -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/frnchyn_shktynt/?utm_source=ig_profile_share&igshid=1slrblwtnkylh"> <i data-feather="instagram"></i></a>
+        <!-- akan mengarah ke link social media dari tombol yang di kasih icon-->
+        <a href="https://wa.me/qr/P3TWG7H2QRWZP1"> <i data-feather="smartphone"></i></a>
+        <!-- akan mengarah ke link social media dari tombol yang di kasih icon-->
+        <a href="https://frenchyanias.github.io/"> <i data-feather="smile"></i></a>
+        <!-- akan mengarah ke link social media dari tombol yang di kasih icon-->
+      </div>
+
+      <div class="links">
+        <!-- mengarah pada semua link di atas-->
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">frenchyanias</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javacript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
